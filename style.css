@@ -78,3 +78,20 @@ header ul a {
   border-radius: 8px;
   border-style: solid;
 }
+
+.block-quote blockquote {
+  padding-block: 128px;
+  padding-inline: 256px;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+}
+.block-quote cite {
+  display: block;
+  margin-left: auto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: end;
+}

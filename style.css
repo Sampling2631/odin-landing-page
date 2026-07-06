@@ -27,3 +27,29 @@ header ul a {
   font-size: 18px;
   text-decoration: none;
 }
+
+.hero-text {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 96px;
+  padding-inline: 128px;
+  background-color: #1f2937;
+}
+.hero-text h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+.hero-text p {
+    margin-bottom: 8px;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.hero-text a {
+  border-radius: 8px;
+  padding-block: 4px;
+  padding-inline: 16px;
+  background-color: #3882f6;
+  color: #fff;
+  text-decoration: none;
+}

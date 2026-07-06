@@ -41,7 +41,7 @@ header ul a {
   font-weight: 900;
 }
 .hero-text p {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
   color: #e5e7eb;
   font-size: 18px;
 }
@@ -52,4 +52,29 @@ header ul a {
   background-color: #3882f6;
   color: #fff;
   text-decoration: none;
+}
+
+.images-list {
+  text-align: center;
+}
+.images-list h2 {
+  margin: 36px;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+.images-list div {
+  margin-bottom: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 64px;
+  justify-content: center;
+}
+.images-list figure {
+  width: 150px;
+}
+.images-list img {
+  border-color: #3882f6;
+  border-radius: 8px;
+  border-style: solid;
 }
